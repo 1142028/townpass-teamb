@@ -1,0 +1,44 @@
+# ===== 環境變數與密鑰（絕對不要上傳）=====
+.env
+.env.*
+!.env.example
+
+# ===== 作業系統 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 編輯器 =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+*.swp
+
+# ===== Node.js（Vue / React 等前端）=====
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Java（Spring Boot）=====
+target/
+build/
+.gradle/
+*.class
+*.log
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
